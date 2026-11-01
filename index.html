@@ -3,61 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="FumboClient ist eine Fabric-Mod für Minecraft. Eigene Cosmetics, Freunde, Nachrichten und Server-Helfer. Downloads für Minecraft 1.21.11 und 26.3.">
-  <meta name="theme-color" content="#0c111a">
+  <meta name="description" content="FumboClient: Cosmetics, Freunde und Server-Helfer für Minecraft. Lade die Fabric-Mod für Minecraft 1.21.11 oder 26.3 herunter.">
+  <meta name="theme-color" content="#090e18">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self'; script-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
-  <title>FumboClient — Minecraft mit Cosmetics und Freunden</title>
+  <title>FumboClient · Minecraft, persönlicher.</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
-  <a class="skip" href="#main">Zum Inhalt springen</a>
-  <header class="header wrap">
-    <a class="brand" href="#" aria-label="FumboClient Startseite" translate="no"><span class="logo" aria-hidden="true">F</span>FumboClient</a>
-    <nav aria-label="Hauptnavigation"><a href="#cosmetics">Cosmetics</a><a href="#installation">Installation</a><a href="https://github.com/kingfabi3855/FumboClient/releases">Releases <span aria-hidden="true">↗</span></a></nav>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <div class="ambient" aria-hidden="true"><span></span><span></span><span></span></div>
+  <header class="site-header shell">
+    <a class="brand" href="#" translate="no" aria-label="FumboClient Startseite"><span class="brand-mark" aria-hidden="true">F</span>FumboClient</a>
+    <nav aria-label="Hauptnavigation"><a href="#features">Entdecken</a><a href="#installation">Installation</a><a class="nav-action" href="#downloads">Download <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main id="main">
-    <section class="intro wrap" aria-labelledby="title">
-      <div class="intro-top"><p>Eine Fabric-Mod für Minecraft</p><p>Version 1.23.1 <span class="beta">Beta</span></p></div>
-      <h1 id="title" translate="no">FumboClient<span aria-hidden="true">.</span></h1>
-      <div class="intro-bottom"><div><h2>Eigene Cosmetics.<br>Freunde im Spiel.</h2><p>Capes, Hüte und selbst gebaute Modelle. Dazu Nachrichten, Gruppen und Server-Helfer, die du mit <kbd>H</kbd> erreichst. Kein zusätzlicher Launcher.</p></div><a class="download-jump" href="#downloads"><span>Client herunterladen</span><span class="arrow" aria-hidden="true">↓</span></a></div>
-    </section>
-
-    <section id="downloads" class="downloads wrap" aria-labelledby="download-title">
-      <div class="download-caption"><h2 id="download-title">Downloads</h2><p>Wähle deine Minecraft-Version.</p></div>
-      <div class="download-rows">
-        <div class="download-row"><div class="version"><span>Minecraft</span><strong>1.21.11</strong></div><p>Fabric <span>·</span> Java 21+</p><a class="button" href="https://github.com/kingfabi3855/FumboClient/releases/download/v1.23.1/FumboClient-1.23.1-mc1.21.11.jar" aria-label="FumboClient für Minecraft 1.21.11 herunterladen">JAR herunterladen <span aria-hidden="true">↓</span></a></div>
-        <div class="download-row"><div class="version"><span>Minecraft</span><strong>26.3</strong></div><p>Fabric <span>·</span> Java 25</p><a class="button" href="https://github.com/kingfabi3855/FumboClient/releases/download/v1.23.1/FumboClient-1.23.1-mc26.3.jar" aria-label="FumboClient für Minecraft 26.3 herunterladen">JAR herunterladen <span aria-hidden="true">↓</span></a></div>
-        <p class="download-help">Fabric API wird zusätzlich benötigt. Nur eine der beiden JARs installieren. <a href="https://github.com/kingfabi3855/FumboClient/releases/download/v1.23.1/SHA256SUMS.txt">Prüfsummen</a> <span aria-hidden="true">/</span> <a href="https://github.com/kingfabi3855/FumboClient/releases/latest">Release-Notizen</a></p>
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="release-line"><span class="release-dot" aria-hidden="true"></span> FumboClient 1.23.1 <span class="release-divider">/</span> Fabric · Beta</p>
+        <h1 id="hero-title">Minecraft,<br><span>persönlicher.</span></h1>
+        <p class="hero-description">Deine Cosmetics. Deine Freunde. Alles direkt im Spiel – mit einer Fabric-Mod, die sich in deinen Minecraft-Abend einfügt.</p>
+        <div class="hero-actions"><a class="button button-light" href="#downloads">FumboClient herunterladen <span aria-hidden="true">↓</span></a><a class="quiet-link" href="#features">Was steckt drin? <span aria-hidden="true">↗</span></a></div>
+        <p class="hero-meta">Für Minecraft 1.21.11 &amp; 26.3 <span>·</span> Kein extra Launcher</p>
+      </div>
+      <div class="hero-art" aria-label="Abstrakte Illustration des FumboClient-Logos">
+        <div class="orbit orbit-one" aria-hidden="true"></div><div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="art-core glass" aria-hidden="true"><div class="core-inset"><span class="core-letter">F</span><span class="core-word">FUMBOCLIENT</span></div></div>
+        <div class="floating-note note-cosmetics glass"><span class="note-symbol" aria-hidden="true">✧</span><div><strong>Dein eigener Look</strong><span>Capes, Hüte &amp; Blockmodelle</span></div></div>
+        <div class="floating-note note-friends glass"><span class="note-symbol cool" aria-hidden="true">↗</span><div><strong>Zusammen im Spiel</strong><span>Freunde, Nachrichten &amp; Gruppen</span></div></div>
+        <span class="art-caption">FUMBOCLIENT / CLIENTSIDE MOD</span>
       </div>
     </section>
 
-    <section id="cosmetics" class="cosmetics wrap section" aria-labelledby="cosmetics-title">
-      <div class="cosmetic-copy"><p class="section-label">Cosmetics</p><h2 id="cosmetics-title">Nicht jeder muss<br>gleich aussehen.</h2><p>Drei Capes, eine Goldkrone und ein Zylinder sind schon eingebaut. Du kannst sie ohne Anmeldung auswählen.</p><p>In der Garderobe schaltest du Cosmetics einzeln an oder aus. Eigene Blockmodelle lassen sich an Kopf, Rücken, Armen und Beinen befestigen und bewegen sich mit deinem Spieler.</p><p class="menu-path"><kbd>H</kbd><span aria-hidden="true">→</span> Cosmetics</p><div class="small-note"><strong>Schon ein eigenes Modell?</strong><p>Lege deine <code>.fumbovoxel</code>-Datei in <code>config/fumboclient/cosmetics/models/</code>. Der separate Cosmetic Builder exportiert dieses Format.</p></div></div>
-      <div class="cosmetic-demo">
-        <fieldset class="preview"><legend>Cosmetic ausprobieren</legend>
-          <input class="choice" type="radio" name="cosmetic" id="look-crown" checked><label for="look-crown">Goldkrone</label>
-          <input class="choice" type="radio" name="cosmetic" id="look-hat"><label for="look-hat">Zylinder</label>
-          <input class="choice" type="radio" name="cosmetic" id="look-none"><label for="look-none">Ohne</label>
-          <div class="stage" aria-hidden="true"><div class="stage-cross cross-left"></div><div class="stage-cross cross-right"></div><div class="figure"><div class="figure-cape"></div><div class="figure-head"><i></i><i></i><b></b></div><div class="figure-body"></div><div class="figure-arm left"></div><div class="figure-arm right"></div><div class="figure-leg left"></div><div class="figure-leg right"></div><div class="figure-crown"><i></i><i></i><i></i></div><div class="figure-hat"></div></div><div class="ground-line"></div></div>
-        </fieldset>
-        <p class="preview-caption">Schematische Vorschau, kein Spiel-Screenshot.<br>Die Auswahl verändert nur diese Illustration.</p>
+    <section id="downloads" class="downloads shell" aria-labelledby="downloads-title">
+      <div class="section-heading"><div><p class="eyebrow">Los geht’s</p><h2 id="downloads-title">Deine Version. Dein Download.</h2></div><a class="quiet-link" href="https://github.com/kingfabi3855/FumboClient/releases/latest">Release-Notizen <span aria-hidden="true">↗</span></a></div>
+      <div class="download-grid">
+        <article class="download-card glass"><div class="download-card-top"><span class="version-icon" aria-hidden="true">↓</span><span>Fabric-Mod <span class="muted">/ v1.23.1</span></span></div><h3>Minecraft <strong>1.21.11</strong></h3><p>Java 21 oder neuer · Fabric API erforderlich</p><a class="button button-light" href="https://github.com/kingfabi3855/FumboClient/releases/download/v1.23.1/FumboClient-1.23.1-mc1.21.11.jar" aria-label="FumboClient für Minecraft 1.21.11 herunterladen">Für 1.21.11 herunterladen <span aria-hidden="true">↓</span></a><span class="file-note">JAR-Datei · In deinen mods-Ordner legen</span></article>
+        <article class="download-card glass"><div class="download-card-top"><span class="version-icon blue" aria-hidden="true">↓</span><span>Fabric-Mod <span class="muted">/ v1.23.1</span></span></div><h3>Minecraft <strong>26.3</strong></h3><p>Java 25 · Fabric API erforderlich</p><a class="button button-glass" href="https://github.com/kingfabi3855/FumboClient/releases/download/v1.23.1/FumboClient-1.23.1-mc26.3.jar" aria-label="FumboClient für Minecraft 26.3 herunterladen">Für 26.3 herunterladen <span aria-hidden="true">↓</span></a><span class="file-note">JAR-Datei · In deinen mods-Ordner legen</span></article>
+      </div>
+      <p class="download-footnote">Installiere nur die Datei für deine Minecraft-Version. <a href="https://github.com/kingfabi3855/FumboClient/releases/download/v1.23.1/SHA256SUMS.txt">SHA-256-Prüfsummen</a></p>
+    </section>
+
+    <section id="features" class="features shell section" aria-labelledby="features-title">
+      <div class="section-heading"><div><p class="eyebrow">Im Spiel zu Hause</p><h2 id="features-title">Mehr von dem, was du spielst.</h2></div><p>Kein Wechsel zwischen Apps.<br>Öffne das Client-Menü einfach mit <kbd>H</kbd>.</p></div>
+      <div class="feature-layout">
+        <article class="cosmetic-feature glass"><div class="feature-copy"><span class="feature-kicker">Cosmetics</span><h3>Ein Look, der<br>zu dir gehört.</h3><p>Capes, Hüte und eigene Blockmodelle für Kopf, Rücken, Arme und Beine. Fünf Starter-Cosmetics sind kostenlos eingebaut – ohne Anmeldung.</p></div>
+          <div class="voxel-art" aria-hidden="true"><svg viewBox="0 0 520 240" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#b9d9f0" stroke-opacity=".1"><path d="m40 171 220-112 220 112-220 112zM84 149l220 112M128 126l220 112M172 104l220 112M216 82l220 112M84 194 304 82M128 216l220-112M172 238l220-112M216 260l220-112"/></g><g><path d="m170 105 90-46 90 46-90 46z" fill="#e5ba70"/><path d="m170 105 90 46v53l-90-46z" fill="#967043"/><path d="m260 151 90-46v53l-90 46z" fill="#c39450"/><path d="m170 105 23-12v-36l-23 12z" fill="#d9a357"/><path d="m170 69 23-12 23 12-23 12z" fill="#ffe5a4"/><path d="m193 81 23-12v36l-23 12z" fill="#b28549"/><path d="m237 93 23-12V45l-23 12z" fill="#d9a357"/><path d="m237 57 23-12 23 12-23 12z" fill="#ffe5a4"/><path d="m260 69 23-12v36l-23 12z" fill="#b28549"/><path d="m304 69 23-12v36l-23 12z" fill="#d9a357"/><path d="m304 69 23-12 23 12-23 12z" fill="#ffe5a4"/><path d="m327 81 23-12v36l-23 12z" fill="#b28549"/><path d="m181 139 68 34v12l-68-34z" fill="#f6cc80"/><path d="m271 173 68-34v12l-68 34z" fill="#e5ba70"/></g></svg><span>Eigene Modelle im .fumbovoxel-Format</span></div>
+        </article>
+        <div class="feature-stack"><article class="compact-feature glass"><span class="feature-symbol" aria-hidden="true">↗</span><h3>Nicht allein unterwegs.</h3><p>Freunde, Direktnachrichten und Gruppen. Mit Benachrichtigungen und Offline-Nachrichten über deinen Link-Server.</p><span class="feature-detail">Link-Verbindung erforderlich</span></article><article class="compact-feature glass"><span class="feature-symbol gold" aria-hidden="true">⌘</span><h3>Weniger suchen. Mehr spielen.</h3><p>Garderobe, Session-Übersicht und Server-Helfer in einem Menü. Updates prüfst du selbst, wenn es für dich passt.</p><span class="feature-detail">H → Einstellungen → Updates</span></article></div>
       </div>
     </section>
 
-    <section id="features" class="social section" aria-labelledby="social-title"><div class="wrap social-layout">
-      <div><p class="section-label">Freunde &amp; Link</p><h2 id="social-title">Wer ist noch da?</h2><p class="social-lead">Freunde sehen, Nachrichten schreiben und in Gruppen zusammenbleiben, ohne das Spiel zu verlassen.</p><p class="connection-note">Diese Funktionen benötigen eine Verbindung zu einem eingerichteten Link-Server.</p></div>
-      <dl class="feature-list"><div><dt>Direktnachrichten</dt><dd>Mit Benachrichtigungen und einer Warteschlange für Offline-Nachrichten.</dd></div><div><dt>Gruppen</dt><dd>Gemeinsame Gespräche statt einzelner Nachrichten an alle.</dd></div><div><dt>Creator-Codes</dt><dd>Verfügbare Codes in der Garderobe einlösen und Cosmetic-Belohnungen freischalten.</dd></div><div><dt>Server-Helfer</dt><dd>Session-Übersicht und weitere Werkzeuge im H-Menü. Welche Helfer verfügbar sind, hängt vom Server ab.</dd></div></dl>
-    </div></section>
+    <section id="installation" class="installation shell section" aria-labelledby="installation-title"><div class="installation-intro"><p class="eyebrow">Einmal einrichten</p><h2 id="installation-title">Gleich wieder<br>im Spiel.</h2><p>Dein gewohnter Launcher bleibt.<br>Du brauchst nur ein passendes Fabric-Profil.</p><a class="quiet-link" href="https://fabricmc.net/use/installer/">Fabric Installer öffnen <span aria-hidden="true">↗</span></a></div><ol class="install-steps glass"><li><span class="step-number" aria-hidden="true">01</span><div><h3>Fabric vorbereiten</h3><p>Installiere Fabric Loader für deine Minecraft-Version. Lege die passende <a href="https://modrinth.com/mod/fabric-api">Fabric API</a> in den <code>mods</code>-Ordner deines Profils.</p></div></li><li><span class="step-number" aria-hidden="true">02</span><div><h3>FumboClient hinzufügen</h3><p>Minecraft schließen und die passende JAR in denselben <code>mods</code>-Ordner legen. Eine alte FumboClient- oder hugosmp-lite-JAR vorher entfernen.</p></div></li><li><span class="step-number" aria-hidden="true">03</span><div><h3>Starten und H drücken</h3><p>Starte dein Fabric-Profil. Mit <kbd>H</kbd> öffnest du das Client-Menü. Die eingebauten Starter-Cosmetics kannst du direkt auswählen.</p></div></li></ol></section>
 
-    <section id="installation" class="installation section wrap" aria-labelledby="installation-title">
-      <div class="installation-heading"><p class="section-label">Installation</p><h2 id="installation-title">In deinen mods-Ordner.<br>Nicht in einen neuen Launcher.</h2><p>Du brauchst ein Fabric-Profil für eine der oben genannten Minecraft-Versionen.</p><a class="inline-link" href="https://fabricmc.net/use/installer/">Fabric Installer öffnen <span aria-hidden="true">↗</span></a></div>
-      <ol class="steps"><li><h3>Fabric &amp; Fabric API installieren</h3><p>Richte Fabric Loader für deine Minecraft-Version ein. Lade die passende <a href="https://modrinth.com/mod/fabric-api">Fabric API</a> und lege sie in den <code>mods</code>-Ordner des Profils.</p></li><li><h3>FumboClient hinzufügen</h3><p>Minecraft schließen und die passende JAR in denselben Ordner legen. Bei einem Update die alte FumboClient- oder hugosmp-lite-JAR entfernen. Nicht beide Versionen gleichzeitig verwenden.</p></li><li><h3>Minecraft starten und H drücken</h3><p>Starte das Fabric-Profil und öffne im Spiel mit <kbd>H</kbd> das Client-Menü. Die eingebauten Starter-Cosmetics sind sofort verfügbar.</p></li></ol>
-    </section>
-
-    <section class="questions wrap" aria-labelledby="questions-title"><div><p class="section-label">Noch Fragen?</p><h2 id="questions-title">Vor dem Start.</h2></div><div class="question-list"><details><summary>Brauche ich einen Account?</summary><p>Für die fünf eingebauten Starter-Cosmetics nicht. Zusätzliche Cosmetics auf einem Link-Server können eine Verbindung und eine Freischaltung voraussetzen.</p></details><details><summary>Wie bekomme ich Updates?</summary><p>Unter H → Einstellungen → Updates kannst du manuell nach neuen Versionen suchen. Alle Downloads und Änderungen stehen außerdem in den <a href="https://github.com/kingfabi3855/FumboClient/releases">GitHub Releases</a>.</p></details><details><summary>Funktioniert das auf jedem Server?</summary><p>Nicht jede Funktion ist auf jedem Server verfügbar. Freunde, Gruppen und gemeinsame Cosmetics benötigen ein passendes Link-Backend. Beachte die Regeln des jeweiligen Servers.</p></details><details><summary>Wo finde ich den Cosmetic Builder?</summary><p>Der Editor ist eine separate Anwendung und nicht in der Mod enthalten. Ein öffentlicher Download- oder Web-Link ist auf dieser Website noch nicht verfügbar. Bereits vorhandene .fumbovoxel-Dateien kannst du lokal verwenden.</p></details></div></section>
+    <section class="faq shell section" aria-labelledby="faq-title"><div><p class="eyebrow">Kurz erklärt</p><h2 id="faq-title">Noch etwas offen?</h2></div><div class="faq-list"><details><summary>Brauche ich eine Anmeldung?</summary><p>Die fünf eingebauten Starter-Cosmetics funktionieren ohne Anmeldung. Gemeinsame Link-Funktionen brauchen eine Verbindung zum Link-Server; zusätzliche Cosmetics können eine Freischaltung voraussetzen.</p></details><details><summary>Kann ich eigene Cosmetics verwenden?</summary><p>Ja. Lege .fumbovoxel-Dateien unter <code>config/fumboclient/cosmetics/models/</code> ab. Der Cosmetic Builder ist ein separater Editor. Ein öffentlicher Editor-Download ist auf dieser Website noch nicht verfügbar.</p></details><details><summary>Wie funktionieren Creator-Codes?</summary><p>Öffne in der Garderobe „Creator-Code“ und löse einen verfügbaren Code ein. Dafür muss die Link-Verbindung aktiv sein. Die Codes und Belohnungen verwaltet der Server-Owner.</p></details><details><summary>Kann ich den Client auf jedem Server nutzen?</summary><p>Die verfügbaren Helfer hängen vom Server ab. Freunde, Gruppen und gemeinsame Cosmetics benötigen ein passend eingerichtetes Link-Backend. Beachte die Regeln des jeweiligen Servers.</p></details></div></section>
+    <aside class="closing shell glass"><div><h2>Dein nächster Minecraft-Abend.</h2><p>Passende Version wählen, installieren, losspielen.</p></div><a class="button button-light" href="#downloads">Zu den Downloads <span aria-hidden="true">↑</span></a></aside>
   </main>
-  <footer class="footer wrap"><div class="footer-top"><a class="brand" href="#" translate="no"><span class="logo" aria-hidden="true">F</span>FumboClient</a><div><a href="https://github.com/kingfabi3855/FumboClient">GitHub</a><a href="https://github.com/kingfabi3855/FumboClient/releases">Releases</a><a href="https://github.com/kingfabi3855/FumboClient/releases/download/v1.23.1/FumboClient-LICENSE.txt">Lizenz</a></div><span>1.23.1 / Beta</span></div><p>Kein offizielles Minecraft-Produkt. Nicht von Mojang oder Microsoft genehmigt oder mit ihnen verbunden.</p><p>Keine Analyse-Tools, externen Schriften oder Skripte. Downloads werden von GitHub bereitgestellt; externe Links führen zu den jeweiligen Anbietern.</p></footer>
+  <footer class="footer shell"><div class="footer-top"><a class="brand" href="#" translate="no"><span class="brand-mark" aria-hidden="true">F</span>FumboClient</a><nav aria-label="Weitere Links"><a href="https://github.com/kingfabi3855/FumboClient">GitHub</a><a href="https://github.com/kingfabi3855/FumboClient/releases">Releases</a><a href="https://github.com/kingfabi3855/FumboClient/releases/download/v1.23.1/FumboClient-LICENSE.txt">Lizenz</a></nav><span>In Entwicklung · Beta</span></div><p>Kein offizielles Minecraft-Produkt. Nicht von Mojang oder Microsoft genehmigt oder mit ihnen verbunden.</p><p>Keine Analyse-Tools, externen Schriften oder Skripte. Downloads werden von GitHub bereitgestellt.</p></footer>
 </body>
 </html>
